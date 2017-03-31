@@ -1,9 +1,8 @@
 {
-  "name": "react-skeleton",
+  "name": "SimpleTodo",
   "version": "0.0.1",
-  "description": "skeleton for minimum react application.",
   "repository": {
-    "url": "git@github.com:tanaka0325/react-skeleton.git",
+    "url": "git@github.com:tanaka0325/SimpleTodo.git",
     "type": "git"
   },
   "scripts": {
