@@ -1,11 +1,16 @@
+// @flow
 import React from 'react';
 
-const Header = () =>
+type Props = {
+  name: string,
+}
+
+const Header = (props: Props) =>
   <header>
     <nav className="nav">
       <div className="container">
         <nav className="nav-left logo">
-          SimpleTodo
+          {props.name}
         </nav>
       </div>
     </nav>
